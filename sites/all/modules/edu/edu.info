@@ -1,0 +1,6 @@
+; $Id: Mr Quang Email:phamducquang1981@gmail.com,v 1.0 Exp $
+name = edu
+description = "edu."
+core = 7.x
+package = mrquang
+php = 5.2

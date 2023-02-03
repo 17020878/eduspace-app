@@ -1,0 +1,67 @@
+
+name = newtheme
+description = A flexible, recolorable theme with many regions.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/colors.css
+stylesheets[print][] = css/print.css
+stylesheets[all][] = css/libs/bootstrap.min.css
+stylesheets[all][] = css/libs/flatpickr.min.css
+stylesheets[all][] = css/libs/t-datepicker.min.css
+stylesheets[all][] = css/libs/t-datepicker-purple.css
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/main_desktop.css
+stylesheets[all][] = css/main_mobile.css
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/jquery-ui.css
+
+scripts[] = js/jquery-3.3.1.min.js
+scripts[] = js/jquery-ui.min.js
+scripts[] = js/jquery-ui.js
+scripts[] = js/popper.min.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/slick.min.js
+scripts[] = js/flatpickr.js
+scripts[] = js/t-datepicker.min.js
+
+scripts[] = js/mainjs/fix_more.js
+scripts[] = js/mainjs/guest.js
+scripts[] = js/mainjs/home.js
+scripts[] = js/mainjs/mobi_search.js
+scripts[] = js/mainjs/passenger.js
+scripts[] = js/mainjs/search.js
+scripts[] = js/mainjs/passenger.js
+
+
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by Drupal.org packaging script on 2019-12-18
+version = "7.69"
+project = "drupal"
+datestamp = "1576696221"

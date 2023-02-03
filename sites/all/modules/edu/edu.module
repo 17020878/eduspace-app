@@ -1,0 +1,24 @@
+<?php
+
+function edu_menu(){
+    $item['home'] = array(
+        'title' => t('edu'),
+        'description' => t('home'),
+        'page callback' => 'page_home',
+        'access arguments' => array('access content'),
+        'type' => MENU_CALLBACK,
+    );
+
+    return $item;
+
+}
+
+function edu_theme(){
+    $themes['page_home'] = array('template' => 'templates/page_home', 'arguments' => array('data' => ''));
+    return $themes;
+}
+function page_home(){
+    $data = null;
+
+    return theme('page_home', array('data' => $data));
+}
